@@ -1,0 +1,35 @@
+$clr: magenta;
+
+body {
+  background-color: $clr;
+}
+
+.vessel-manager-overview-subheading,
+.non-compliance-overview,
+.vessel-manager-overview-heading {
+  justify-content: space-between;
+}
+
+.vessel-manager-overview-subheading > .overview-header-item.department,
+.non-compliance-overview > .overview-header-item.department,
+.vessel-manager-overview-heading > .overview-header-item.department {
+  flex: 0 1 170px;
+}
+
+.vessel-manager-overview-subheading > .overview-header-item:nth-child(2),
+.non-compliance-overview > .overview-header-item:nth-child(2),
+.vessel-manager-overview-heading > .overview-header-item:nth-child(2) {
+  flex: 0 1 86px;
+}
+
+.vessel-manager-overview-subheading > .overview-header-item:nth-child(3),
+.non-compliance-overview > .overview-header-item:nth-child(3),
+.vessel-manager-overview-heading > .overview-header-item:nth-child(3) {
+  flex: 0 1 100px;
+}
+
+.vessel-manager-overview-subheading > .overview-header-item:nth-child(6),
+.non-compliance-overview > .overview-header-item:nth-child(6),
+.vessel-manager-overview-heading > .overview-header-item:nth-child(6) {
+  flex: 0 1 114px;
+}
