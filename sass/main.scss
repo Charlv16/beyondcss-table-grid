@@ -1,5 +1,6 @@
-$clr: magenta;
-
-body {
-  background-color: $clr;
-}
+@use 'abstracts';
+@use 'base';
+@use 'components';
+@use 'layout';
+@use 'utilities';
+@use 'vendor';
